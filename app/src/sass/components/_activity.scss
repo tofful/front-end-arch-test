@@ -1,0 +1,14 @@
+.activity {
+    display: inline-block;
+    margin-bottom: $spacing-m;
+    width: 100%;
+
+    @include breakpoint($desktop-small) {
+        max-width: 335px;
+    }
+
+    .list {
+        max-height: 333px;
+        overflow: auto;
+    }
+}

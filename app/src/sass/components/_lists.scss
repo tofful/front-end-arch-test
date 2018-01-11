@@ -1,0 +1,42 @@
+.list.-has-icons { // sass-lint:disable-line force-element-nesting
+    .list-link {
+        padding-left: $spacing-xs * 3;
+    }
+
+    i {
+        height: $spacing-m;
+        left: 2px;
+        position: absolute;
+        top: 7px;
+        width: $spacing-m;
+    }
+}
+
+.list-item {
+    border-bottom: 1px solid $border-color-primary;
+    position: relative;
+
+    &:first-child {
+        border-top: 0;
+    }
+
+    &.-active {
+        .list-link {
+            color: $brand-color-9;
+        }
+    }
+}
+
+.list-link {
+    color: $txt-color-primary;
+    display: block;
+    font-size: $font-size-xsmall;
+    font-weight: 600;
+    padding: $spacing-xs + 2;
+
+    &:hover,
+    &:focus {
+        color: $brand-color-9;
+        text-decoration: none;
+    }
+}

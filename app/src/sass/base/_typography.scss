@@ -1,0 +1,36 @@
+// Typography
+p,
+.txt {
+    color: $txt-color-primary;
+    font-size: $font-size-primary;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: $spacing-m 0;
+}
+
+.-small {
+    @extend .txt;
+    font-size: $font-size-small;
+    line-height: 1;
+    margin: 0 0 $spacing-s;
+}
+
+.-xsmall {
+    @extend .-small;
+    font-size: $font-size-xsmall;
+}
+
+.-large {
+    @extend .txt;
+    font-size: $font-size-large;
+}
+
+strong,
+.strong,
+.-bold {
+    font-weight: 700;
+}
+
+.-center {
+    text-align: center;
+}

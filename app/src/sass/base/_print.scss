@@ -1,0 +1,11 @@
+// Print
+// This file is to DEMO where the PRINT styles should be written
+
+@media print {
+    * {
+        background: transparent;
+        box-shadow: none;
+        color: $black;
+        text-shadow: none;
+    }
+}

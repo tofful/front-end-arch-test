@@ -1,0 +1,66 @@
+.card-list {
+    float: right;
+    width: 100%;
+
+    @include breakpoint($desktop-small) {
+        max-width: 740px;
+    }
+}
+
+.card-small {
+    background: $grayscale-5;
+    border-radius: $spacing-xxs;
+    color: $txt-color-primary;
+    float: left;
+    font-weight: 600;
+    height: ($spacing-m * 4) - 6;
+    line-height: ($spacing-m * 4) - 6;
+    margin-bottom: $spacing-xxs + 1;
+    overflow: hidden;
+    padding-left: $spacing-xs * 7;
+    position: relative;
+    width: 100%;
+
+    @include breakpoint($desktop-small) {
+        margin-left: $spacing-s - 1;
+        width: calc(50% - 14px);
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+
+        &::before {
+            background-image: url(../img/sprite.png);
+            background-position: -143px 9px;
+            background-repeat: no-repeat;
+            content: '';
+            height: $spacing-m * 2;
+            position: absolute;
+            right: 88px;
+            top: 17px;
+            width: $spacing-m * 2;
+            z-index: 1;
+        }
+    }
+
+    // Notification number
+    .number {
+        color: $txt-color-secondary;
+        font-size: $font-size-xxlarge;
+        font-weight: 400;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        width: 85px;
+    }
+
+    // Icon
+    i {
+        height: $spacing-m * 2;
+        left: 22px;
+        position: absolute;
+        top: 17px;
+        width: $spacing-m * 2;
+    }
+}

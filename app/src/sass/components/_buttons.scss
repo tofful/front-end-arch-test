@@ -1,0 +1,18 @@
+.btn {
+    background: $brand-color-10;
+    border-radius: $spacing-xxs;
+    color: $txt-color-secondary;
+    display: inline-block;
+    font-weight: 600;
+    padding: ($spacing-xs + 2) 0;
+    text-align: center;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.btn-large {
+    @extend .btn;
+    width: 240px;
+}

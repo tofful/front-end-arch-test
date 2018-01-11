@@ -1,0 +1,90 @@
+// sass-lint:disable space-before-colon
+
+// Fonts
+$font-family-primary        : 'Ubuntu', sans-serif, Helvetica, Arial !default;
+$font-size-base             : 16px !default;
+$font-size-primary          : 1rem !default;
+$font-size-xxsmall          : .625rem !default;
+$font-size-xsmall           : .75rem !default;
+$font-size-small            : .875rem !default;
+$font-size-large            : 1.25rem !default;
+$font-size-xlarge           : 1.5rem !default;
+$font-size-xxlarge          : 2rem !default;
+$font-size-xxxlarge         : 2.5rem !default;
+
+// Headings
+$font-size-h1               : $font-size-xxxlarge !default;
+$font-size-h2               : $font-size-xxlarge !default;
+$font-size-h3               : $font-size-xlarge !default;
+$font-size-h4               : $font-size-primary !default;
+$font-size-h5               : $font-size-xsmall !default;
+
+// Black & White
+$black                      : #000 !default;
+$white                      : #fff !default;
+
+// Color Pallete
+$brand-color-1               : #42b997 !default;
+$brand-color-2               : #2d97cd !default;
+$brand-color-3               : #f9c319 !default;
+$brand-color-4               : #7fce44 !default;
+$brand-color-5               : #6295d9 !default;
+$brand-color-6               : #6ac7c9 !default;
+$brand-color-7               : #fb6b38 !default;
+$brand-color-8               : #db586a !default;
+$brand-color-9               : #1a94d4 !default;
+$brand-color-10              : #129fe4 !default;
+
+// For sass loop usage
+$brand-colors:  $brand-color-1,
+                $brand-color-2,
+                $brand-color-3,
+                $brand-color-4,
+                $brand-color-5,
+                $brand-color-6,
+                $brand-color-7,
+                $brand-color-8,
+                $brand-color-9,
+                $brand-color-10;
+
+// Grayscale Pallete
+$grayscale-1                : #333 !default;
+$grayscale-2                : #242424 !default;
+$grayscale-3                : #ebebeb !default;
+$grayscale-4                : #cfcfcf !default;
+$grayscale-5                : #efefef !default;
+
+// Texts
+$txt-color-primary          : $grayscale-1 !default;
+$txt-color-secondary        : $white !default;
+
+// Links
+$link-color                 : $brand-color-9 !default;
+
+// Backgrounds
+$bg-color-primary           : $brand-color-1 !default;
+$bg-color-secondary         : $white !default;
+
+// Borders
+$border-color-primary       : $grayscale-4 !default;
+
+// Breakpoints
+$phone-small                : 320px !default;
+$phone-medium               : 480px !default;
+$phone-large                : 640px !default;
+$tablet                     : 768px !default;
+$desktop-small              : 1024px !default;
+$desktop-medium             : 1280px !default;
+$desktop-large              : 1440px !default;
+
+// General dimensions and spacing
+$spacing-xxs                : 5px !default;
+$spacing-xs                 : 10px !default;
+$spacing-s                  : 15px !default;
+$spacing-m                  : 20px !default;
+
+// Wrappers
+$wrapper-1                  : 1160px !default;
+
+
+
