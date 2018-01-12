@@ -13,6 +13,11 @@ This project is for testing purposes, it shows some basics good practices about
 - Editor config (to standardize coding between devs)
 - Supported devices (Mobile first and Desktop)
 
+DEMO
+=======================
+
+[Click to see live demo](http://tofful.com/promapp/)
+
 LINT CONF
 =======================
 This configuration is my preferred one.
